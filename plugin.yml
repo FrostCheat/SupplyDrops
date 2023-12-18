@@ -1,0 +1,10 @@
+name: SupplyDrops
+api: 5.0.0
+main: frostcheat\supplydrop\Main
+author: FrostCheat
+version: 1.3.8
+website: https://github.com/FrostCheat
+
+permissions:
+  supplydrop.command:
+    default: op

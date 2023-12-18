@@ -1,0 +1,11 @@
+#Esto es para coger el radio del bloques donde se va ha spawnear aleatoriamente el SupplyDrop (Escoge una coordenada aleatoria entre ese radio de bloques)
+coord-x: 300
+coord-z: 2000
+
+#Esto es para coger aleatoriamente una cantidad de items que se van a colocar en el supplydrop
+#Minimo 1 y Maximo 27 (Puede dar crash si colocas negativos o numeros mas de 27)
+min-items: 5
+max-items: 15
+
+#Es cada cuanto se va a generar el supplydrop (En ticks: 20 ticks = 1 segundo)
+time: 6000
