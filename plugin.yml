@@ -1,0 +1,18 @@
+name: SupplyDrops
+api: 5.3.0
+main: frostcheat\supplydrops\Loader
+author: FrostCheat
+version: 1.0.0
+website: https://github.com/FrostCheat
+
+permissions:
+  supplydrops.command:
+    default: op
+  supplydrops.command.edit:
+    default: op
+  supplydrops.command.reload:
+    default: op
+  supplydrops.command.spawn:
+    default: op
+  supplydrops.command.help:
+    default: op

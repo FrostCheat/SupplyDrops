@@ -1,0 +1,24 @@
+# Do not touch this setting, it may delete all your current settings.
+config-version: 1
+
+# This is the coordinate range in which the SupplyDrop will be generated.
+# It is not necessary to set a negative coordinate since the plugin already integrates it into a random range of positive and negative coordinates.
+coord-x: 300
+coord-z: 2000
+
+# This is the minimum and maximum amount of items that will be placed in the SupplyDrop
+# If you set a value less than 1 or greater than 27, 1 and 27 will be set by default (To avoid crashes)
+min-items: 5
+max-items: 15
+
+# Available times: 1s, 1m, 1h, 1d, 1w, 1mo, 1y
+# Example: 72h, not Available: 3h 
+# This is how often the SupplyDrop will be automatically generated.
+# Set -1 if you don't want it to be generated automatically.
+time: 4h
+
+# These are the worlds in which the SupplyDrop will be generated
+worlds:
+  - "world"
+  - "world1"
+  - "world2"
